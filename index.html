@@ -1,2 +1,17 @@
 <script src="https://d3js.org/d3.v5.js"></script>
 <h1>Graph Editor<h1>
+<script> family = d3.hierarchy({
+  name: "root",
+  children: [
+    {name: "child #1"},
+    {
+      name: "child #2",
+      children: [
+        {name: "grandchild #1"},
+        {name: "grandchild #2"},
+        {name: "grandchild #3"}
+      ]
+    }
+  ]
+})</script>
+                               
