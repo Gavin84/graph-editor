@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .node {}
+
+        .link { stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+    </style>
 </head>
 
 <!-- Load d3.js -->
@@ -10,7 +17,8 @@
 <!-- Create a basic header for the webpage -->
 <h1>Graph Editor</h1>
 
-<!-- Create a div where the graph will take place -->
+<body>
+<!-- Create a svg where the graph will take place -->
 <svg width="1000" height="1000"></svg>
 
 <script type="text/javascript">
